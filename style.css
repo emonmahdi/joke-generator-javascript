@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fab22e;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.card-joks{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+.card{
+    background-color: #000;
+    color:#fff;
+    padding: 30px 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ddd;
+    text-align: center;
+}
+.card span{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 55px;
+}
+.card p{
+    margin-bottom: 20px;
+     transition: .5s;
+}
+.fade{
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+.card button{
+    border: none;
+    padding:10px 30px;
+    background-color: #fab22c;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color:#000;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
